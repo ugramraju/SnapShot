@@ -1,0 +1,51 @@
+.Container{
+    text-align: center;
+}
+.hedingContainer{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+    font-size: 4em;
+}
+.hedingContainer:hover{
+    color: yellow;
+    font-size: 5em;
+    text-decoration:underline;
+}
+.searchContainer{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 1em;
+}
+#search-box{
+    border: 3px solid black;
+    height: 1.5em;
+    width:18em;
+}
+#search-btn{
+    width:3em;
+    height: 2em;
+    background-color: black;
+    color: white;
+}
+#search-btn img{
+    width:1em;
+}
+#search-btn:hover{
+    cursor: pointer;
+}
+.buttonsContainer{
+    display: flex;
+    gap: 1em;
+    text-align: center;
+    justify-content: center;
+}
+.buttonsContainer>input{
+    background-color: black;
+    color: white;
+}
+.buttonsContainer input:hover{
+    cursor: pointer;
+    font-size: large;
+}

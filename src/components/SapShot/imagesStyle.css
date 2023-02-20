@@ -1,0 +1,17 @@
+.imagesContainer{
+    text-align: center;
+}
+.imagesContainer h1{
+    color: blue;
+}
+.imagesContainer img{
+    width:20%;
+    height:15em;
+    margin: 2%;
+}
+.imagesContainer img:hover{
+    width:25%;
+    height:20em;
+    cursor: pointer;
+    border: 5px double greenyellow;
+}
